@@ -9,7 +9,8 @@ module.exports = {
         blur: 'url(/src/assets/background-blur.png)'
       },
       fontFamily:{
-        sans: 'merriweather'
+        sans: 'merriweather',
+        kumph: 'Kumbh Sans'
       },
       colors:{
         green: {
@@ -19,6 +20,7 @@ module.exports = {
           800: '#94B49F',
         },
         blue: {
+          400: '#174d99',
           500: '#4A69FF',
           600: '#002D6D',
           700: '#01142F',

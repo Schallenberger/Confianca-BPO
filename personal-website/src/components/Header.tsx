@@ -10,35 +10,35 @@ export function Header(){
 
   return(
     <header className="w-full py-5 flex items-center justify-evenly absolute">
-      {/* <Link 
-        className={classNames('hover:text-palette-quaternary transition ease-in-out delay-50 text-lg',{
-          'text-palette-quaternary': isHomeActive
+      <Link 
+        className={classNames('hover:text-blue-400 transition ease-in-out delay-50 text-lg',{
+          'text-blue-400': isHomeActive
         })}
         to={`/`}>
         Home
       </Link>
       <Link 
-        className={classNames('hover:text-palette-quaternary transition ease-in-out delay-50 text-lg',{
-          'text-palette-quaternary': isProjectsActive
+        className={classNames('hover:text-blue-400 transition ease-in-out delay-50 text-lg',{
+          'text-blue-400': isProjectsActive
         })}
         to={`/Projects`}>
           Projects
-      </Link> */}
+      </Link>
       <img className="w-48" src="https://www.logomaker.com/api/main/images/1j+ojFVDOMkX9Wytexe43D6kh...eHrxNKmRzOwXs1M3EMoAJtliYlhvFi9...o4" alt="" srcSet="" />
-      {/* <Link
-        className={classNames('hover:text-palette-quaternary transition ease-in-out delay-50 text-lg',{
-          'text-palette-quaternary': isAboutActive
+      <Link
+        className={classNames('hover:text-blue-400 transition ease-in-out delay-50 text-lg',{
+          'text-blue-400': isAboutActive
         })}
         to={`/About`}>
           About
       </Link>
       <Link 
-        className={classNames('hover:text-palette-quaternary transition ease-in-out delay-50 text-lg',{
-          'text-palette-quaternary': isContactActive
+        className={classNames('hover:text-blue-400 transition ease-in-out delay-50 text-lg',{
+          'text-blue-400': isContactActive
         })} 
         to={`/Contact`}>
           Contact
-      </Link> */}
+      </Link>
     </header>
   )
 }

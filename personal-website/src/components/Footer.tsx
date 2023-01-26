@@ -2,7 +2,7 @@
 export function Footer(){
   
   return(
-	<footer className="p-4 shadow md:px-6 md:py-8 bg-blue-700">
+	<footer className="p-4 shadow md:px-6 md:py-8 bg-blue-400">
 		<div className="sm:flex sm:items-center sm:justify-between">
 			<a href="#" target="_blank" className="flex items-center mb-4 sm:mb-0">
 				<img src="https://www.logomaker.com/api/main/images/1j+ojFVDOMkX9Wytexe43D6kh...eHrxNKmRzOwXs1M3EMoAJtliYlhvFi...Psz" className=" w-36" alt="Flowbite Logo" />
