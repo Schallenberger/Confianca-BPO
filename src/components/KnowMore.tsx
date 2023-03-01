@@ -12,8 +12,8 @@ export function KnowMore(){
               <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">Saiba Mais</h2>
               <p className="mt-6 text-gray-600">A terceirização da área financeira de uma empresa consiste em contratar uma empresa terceira para realizar as atividades e os processos financeiros, como contas a pagar, contas a receber, conciliação bancária e fluxo de caixa.</p>
               <p className="mt-4 text-gray-600">O processo é 100% seguro pois nós realizamos o controle e agendamento das contas a serem pagas, mas quem autoriza o pagamento junto ao banco é você.</p>
-              <p className="mt-4 text-gray-600">Além da realização destas rotinas, a geração de relatórios e gráficos permite realizar a gestão financeira, dando visão da saúde financeira da empresa, a curto e médio prazo, reduzindo riscos e permitindo focar no negócio, tendo a certeza do controle dos compromissos financeiros e das entradas através das contas a receber.</p>
-              <a href="" className="border-solid border-blue-400 bg-blue-400 border-2 rounded-2xl px-6 py-1 mt-16 text-white transition ease-in-out hover:bg-white hover:text-blue-400">Saiba Mais</a>
+              <p className="mt-4 text-gray-600 mb-4">Além da realização destas rotinas, a geração de relatórios e gráficos permite realizar a gestão financeira, dando visão da saúde financeira da empresa, a curto e médio prazo, reduzindo riscos e permitindo focar no negócio, tendo a certeza do controle dos compromissos financeiros e das entradas através das contas a receber.</p>
+              <a href="" className="border-b-2 border-black py-1 mt-16 text-black transition ease-in-out hover:bg-white">Saiba Mais</a>
             </div>
           </div>
       </div>

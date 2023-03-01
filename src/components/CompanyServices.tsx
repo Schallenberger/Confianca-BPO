@@ -16,25 +16,25 @@ export default function CompanyServices() {
 
           <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
               <div className="border-t border-gray-200 pt-4">
-                <dt className="font-medium text-gray-900">Contas a pagar</dt>
+                <dt className="font-medium font-semibold text-gray-900">Contas a pagar</dt>
                 <dd className="mt-2 text-sm text-gray-500">Lançamento de NF de fornecedores</dd>
                 <dd className="mt-2 text-sm text-gray-500">Lançamento de previsão de pagamentos</dd>
                 <dd className="mt-2 text-sm text-gray-500">Agendamento do pagamento no banco</dd>
               </div>
               <div className="border-t border-gray-200 pt-4">
-                <dt className="font-medium text-gray-900">Contas a receber</dt>
+                <dt className="font-medium font-semibold text-gray-900">Contas a receber</dt>
                 <dd className="mt-2 text-sm text-gray-500">Faturamento</dd>
                 <dd className="mt-2 text-sm text-gray-500">Criação de previsão de recebimento</dd>
                 <dd className="mt-2 text-sm text-gray-500">Baixa do recebimento</dd>
               </div>
               <div className="border-t border-gray-200 pt-4">
-                <dt className="font-medium text-gray-900">Conciliação bancária</dt>
+                <dt className="font-medium font-semibold text-gray-900">Conciliação bancária</dt>
                 <dd className="mt-2 text-sm text-gray-500">Controle total de saídas e entradas nas contas bancárias</dd>
                 <dd className="mt-2 text-sm text-gray-500">Controle e baixa de francesinha</dd>
                 <dd className="mt-2 text-sm text-gray-500">Envio de documentos para a contabilidade</dd>
               </div>
               <div className="border-t border-gray-200 pt-4">
-                <dt className="font-medium text-gray-900">Fluxo de caixa</dt>
+                <dt className="font-medium font-semibold text-gray-900">Fluxo de caixa</dt>
                 <dd className="mt-2 text-sm text-gray-500">Controle de entrada e saída de numerários</dd>
                 <dd className="mt-2 text-sm text-gray-500">Lançamento de previsão de pagamentos</dd>
                 <dd className="mt-2 text-sm text-gray-500">Agendamento do pagamento no banco</dd>
