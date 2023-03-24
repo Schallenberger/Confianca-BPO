@@ -5,7 +5,7 @@ export function Footer(){
 	<footer className="p-4 shadow md:px-6 md:py-8 bg-blue-400">
 		<div className="sm:flex sm:items-center sm:justify-between">
 			<a href="#" target="_blank" className="flex items-center mb-4 sm:mb-0">
-				<img src="src/images/logo-escrito-amar-bpo.png" className=" w-48" alt="Flowbite Logo" />
+				<img src="../images/logo-escrito-amar-bpo.png" className=" w-48" alt="Flowbite Logo" />
 			</a>
 			<ul className="flex flex-wrap items-center mb-6 sm:mb-0">
 				<li>
