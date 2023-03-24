@@ -38,7 +38,7 @@ export function Header(){
       <div className="flex lg:flex-1">
         <a href="#" className="-m-1.5 p-1.5">
           <span className="sr-only">Your Company</span>
-          <img className="w-16" src="../images/logo-azul-bpo.png" alt="logo-confianca-bpo" />
+          <img className="w-16" src="../src/images/logo-azul-bpo.png" alt="logo-confianca-bpo" />
         </a>
       </div>
       <div className="flex lg:hidden">
@@ -92,7 +92,7 @@ export function Header(){
             <span className="sr-only">Your Company</span>
             <img
               className="w-12"
-              src="../images/logo-azul-bpo.png"
+              src="../src/images/logo-azul-bpo.png"
               alt=""
             />
           </a>

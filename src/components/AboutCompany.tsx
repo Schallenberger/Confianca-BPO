@@ -11,7 +11,7 @@ export function AboutCompany(){
               <p className="mt-4 text-gray-600">Somos uma empresa formada em sua base por profissionais qualificados tecnicamente e de longa experiência na área. Nossa missão é ‘Gerar valor financeiro aos clientes, transformando sua operação financeira’</p>
             </div>
             <div className="md:5/12 lg:w-5/12">
-              <img src="../assets/juicy-business-coach-explains-the-material.gif" alt="image" loading="lazy" width="" height=""/>
+              <img src="../src/assets/juicy-business-coach-explains-the-material.gif" alt="image" loading="lazy" width="" height=""/>
             </div>
           </div>
       </div>
