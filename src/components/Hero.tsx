@@ -18,7 +18,7 @@ export function Hero
 								<div className="grid grid-cols-3 space-x-4 md:space-x-6 md:flex md:justify-center lg:justify-start">
 										<a aria-label="go to instagram" href="https://www.instagram.com/confianca_bpo/" className="p-4 border border-gray-200 rounded-full duration-300 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-400/20">
 												<div className="flex justify-center space-x-4">
-														<img className="w-6 h-6" src="/src/assets/instagram.png" alt="slack logo" loading="lazy" width="128" height="128" />
+														<img className="w-6 h-6" src="src/assets/instagram.png" alt="slack logo" loading="lazy" width="128" height="128" />
 														<span className="hidden font-medium md:block">Instagram</span>
 												</div>
 										</a>  
