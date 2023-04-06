@@ -1,44 +1,26 @@
 import { Link } from "react-router-dom";
 import { Fragment, useState } from 'react'
-import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
+import { Dialog, Popover } from '@headlessui/react'
 import {
-  ArrowPathIcon,
   Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import classNames from "classnames";
 
-const products = [
-  { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
-  { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-  { name: 'Security', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
-  { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
-  { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
-]
-const callsToAction = [
-  { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
-  { name: 'Contact sales', href: '#', icon: PhoneIcon },
-]
 
 export function Header(){
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const isHomeActive = window.location.href == 'http://localhost:3000/';
-  const isProjectsActive = window.location.href == 'http://localhost:3000/Projects';
-  const isAboutActive = window.location.href == 'http://localhost:3000/About';
-  const isContactActive = window.location.href == 'http://localhost:3000/Contact';
+  const isHomeActive = window.location.href == 'http://www.confiancabpo.com.br/';
+  const isProjectsActive = window.location.href == 'http://www.confiancabpo.com.br/Projects';
+  const isAboutActive = window.location.href == 'http://www.confiancabpo.com.br/About';
+  const isContactActive = window.location.href == 'http://www.confiancabpo.com.br/Contact';
 
   return(
     <header className="bg-white sticky top-0 z-10">
     <nav className="mx-auto flex max-w-8xl items-center justify-between p-6 lg:px-8" aria-label="Global">
       <div className="flex lg:flex-1">
         <a href="#" className="-m-1.5 p-1.5">
-          <span className="sr-only">Your Company</span>
-          <img className="w-16" src="../src/images/logo-azul-bpo.png" alt="logo-confianca-bpo" />
+          <img className="w-16" src="https://imgur.com/aKPi4nU.png" alt="logo-confianca-bpo" />
         </a>
       </div>
       <div className="flex lg:hidden">
@@ -92,7 +74,7 @@ export function Header(){
             <span className="sr-only">Your Company</span>
             <img
               className="w-12"
-              src="../src/images/logo-azul-bpo.png"
+              src="https://imgur.com/aKPi4nU.png"
               alt=""
             />
           </a>

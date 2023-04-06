@@ -1,4 +1,5 @@
 import classNames from "classnames";
+import { Link } from "react-router-dom";
 
 export default function ContactForm(){
   return(
@@ -19,7 +20,7 @@ export default function ContactForm(){
             <textarea id="message" rows={6} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" placeholder="Deixei sua mensagem..."></textarea>
           </div>
           <button type="submit" className="bg-blue-400 py-3 px-9 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-1 focus:outline-none focus:ring-primary-300 transition-all ease-in-out hover:bg-blue-500">
-            <a href="mailto:schallenbergerbruno@gmail.com">Enviar</a>
+            <Link to='javascript:void(0)' onClick={() => window.location.href = 'mailto:schallenbergerbruno@gmail.com'}>Enviar</Link>
           </button>
         </form>
       </div>

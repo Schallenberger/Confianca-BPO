@@ -2,6 +2,7 @@
   "name": "confianca-bpo",
   "private": true,
   "version": "1.0.0",
+  "homepage" : "http://www.confiancabpo.com.br/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
